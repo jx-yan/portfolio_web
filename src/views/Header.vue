@@ -1,10 +1,8 @@
 <template>
   <header id="home">
-    <a name="myanchor">
-      <h1
-        style="padding-top: 40px; margin-top: -40px; padding-bottom: 100px"
-      ></h1>
-    </a>
+    <h1
+      style="padding-top: 40px; margin-top: -40px; padding-bottom: 100px"
+    ></h1>
     <Message class="animate__animated animate__backInLeft" />
   </header>
 </template>

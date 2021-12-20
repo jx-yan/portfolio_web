@@ -1,5 +1,32 @@
 <template>
   <div id="app">
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light p-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">
+          <div class="logo-navbar"></div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav text-center">
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#skills">Skills</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <Header />
     <About />
     <Projects />
@@ -25,12 +52,17 @@ export default {
 </script>
 
 <style>
+* {
+  max-width: 100%;
+}
+
 html,
 body,
 #app {
   height: 100%;
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif;
+  max-width: 100%;
 }
 
 nav {
@@ -99,7 +131,7 @@ header {
   background-size: cover;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 575px) {
   .navbar-nav {
     background-color: aliceblue;
     border-radius: 10px;

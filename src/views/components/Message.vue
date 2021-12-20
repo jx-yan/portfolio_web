@@ -122,7 +122,6 @@ div.cursor {
   width: 2px;
   height: 32px;
   background-color: #6495ed;
-  margin-left: 8px;
   animation: cursorBlink 0.5s infinite;
 }
 
