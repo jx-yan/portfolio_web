@@ -2,7 +2,7 @@
   <section id="about">
     <div class="container-fluid mt-5">
       <div class="row justify-content-center text-center">
-        <div class="col-6" data-aos="fade-right">
+        <div class="col-6">
           <div class="row justify-content-center text-center mb-3">
             <img class="avatar" src="../assets/animated_avatar.gif" />
             <h1>About Me</h1>
@@ -20,13 +20,13 @@
             </div>
           </div>
         </div>
-        <div class="col-6 text-between" data-aos="fade-left">
+        <div class="col-6 text-between">
           <div class="row justify-content-center text-center mb-3">
             <img class="contact" src="../assets/animated_contact.gif" />
             <h1>Contact</h1>
           </div>
           <div class="row justify-content-center text-center">
-            <div class="col-12 mb-3">
+            <div class="col mb-3">
               <p>Email: jiaxing.yan.2022@gmail.com</p>
               <p>Languages: English, Chinese (Bilingual)</p>
               <a class="about-icons" href="#">
