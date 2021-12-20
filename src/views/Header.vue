@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import "animate.css";
 import Message from "./components/Message.vue";
 export default {
   name: "Header",

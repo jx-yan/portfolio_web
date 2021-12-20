@@ -44,12 +44,12 @@ a .navbar-brand {
 .logo-navbar {
   border-radius: 8px;
   max-height: 5rem;
-  content: url("../assets/static_logo.png");
+  content: url("./assets/static_logo.png");
   cursor: default !important;
 }
 
 .logo-navbar:hover {
-  content: url("../assets/animated_logo.gif");
+  content: url("./assets/animated_logo.gif");
   cursor: default !important;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -95,7 +95,7 @@ header {
       rgba(34, 34, 34, 0.2),
       rgba(34, 34, 34, 0.2)
     ),
-    url("../assets/ice_mountain.jpg");
+    url("./assets/ice_mountain.jpg");
   background-size: cover;
 }
 
