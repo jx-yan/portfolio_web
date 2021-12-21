@@ -1,6 +1,6 @@
 <template>
   <section id="projects">
-    <p style="padding-top: 40px; margin-top: -40px; padding-bottom: 100px"></p>
+    <p style="padding-bottom: 100px"></p>
     <div class="container-fluid text-center text-white justify-content-center">
       <h1 data-aos="zoom-in-down">My Projects</h1>
     </div>
