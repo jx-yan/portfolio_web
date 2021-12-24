@@ -13,7 +13,7 @@
 
         <h5>
           Information Systems
-          <span class="year">{{ year[2] }}</span>
+          <span class="year" v-html="year[2]"></span>
           in &nbsp;&nbsp;<img
             class="school-logo"
             src="../../assets/school_logo.png"

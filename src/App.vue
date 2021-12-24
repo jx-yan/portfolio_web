@@ -6,6 +6,7 @@
           <div class="logo-navbar"></div>
         </a>
         <button
+          id="collapse-btn"
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -20,10 +21,16 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarNavAltMarkup"
         >
-          <div class="navbar-nav text-center">
-            <a class="nav-link" href="#projects">Projects</a>
-            <a class="nav-link" href="#skills">Skills</a>
-          </div>
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects" @click="collapse"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" @click="collapse">Skills</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -31,6 +38,12 @@
     <About />
     <Projects />
     <Skills />
+    <footer class="container-fluid">
+      <p class="float-end">
+        <a href="#app" class="pe-5 pb-4 text-dark">Back to Top</a>
+      </p>
+      <p class="text-dark ps-5 pb-4">© Jiaxing 2022</p>
+    </footer>
   </div>
 </template>
 
@@ -48,10 +61,17 @@ export default {
     Projects,
     Skills,
   },
+  methods: {
+    collapse() {
+      document.getElementById("collapse-btn").click();
+    },
+  },
 };
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
 * {
   max-width: 100%;
 }
@@ -61,8 +81,8 @@ body,
 #app {
   height: 100%;
   scroll-behavior: smooth;
-  font-family: "Inter", sans-serif;
   max-width: 100%;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 nav {
@@ -136,5 +156,9 @@ header {
     background-color: aliceblue;
     border-radius: 10px;
   }
+}
+
+footer {
+  background-color: #f8d5eb;
 }
 </style>
