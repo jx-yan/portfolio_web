@@ -14,11 +14,15 @@
               v-if="project.imgUrl == 'foodshare'"
               :src="require('../../assets/foodshare_static.png')"
             />
+            <div
+              class="figma card-img-top"
+              v-else
+              v-html="project.figmaLink"
+            ></div>
             <div class="card-header">
               <h4 class="p-0 m-0" v-html="project.name"></h4>
             </div>
             <div class="card-body">
-              <div class="figma" v-html="project.figmaLink"></div>
               <p class="card-text" v-html="project.description"></p>
               <a
                 v-if="project.projectLink !== ''"
