@@ -8,7 +8,7 @@
       </div>
       <div class="row">
         <div
-          class="col-2 py-4"
+          class="col-lg-2 col-md-4 col-sm-6 py-4"
           v-for="(skill, name, index) in skills"
           :key="index"
           :skill="skill"
