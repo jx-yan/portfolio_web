@@ -100,7 +100,7 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
 
-div.container {
+div.msg {
   transform: translate(0, 30%);
   font-family: "Bakbak One", cursive;
 }
