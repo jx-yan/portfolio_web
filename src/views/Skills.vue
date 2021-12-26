@@ -2,7 +2,7 @@
   <section id="skills">
     <p style="padding-bottom: 40px"></p>
     <div class="container-fluid text-center justify-content-center">
-      <div class="row skills-title pb-4" data-aos="zoom-out-down">
+      <div class="row skills-title pb-4" data-aos="fade-down">
         <h2>My Skills</h2>
         <hr class="my-0" />
       </div>
@@ -13,7 +13,7 @@
           :key="index"
           :skill="skill"
           :name="name"
-          data-aos="zoom-in-right"
+          data-aos="flip-down"
         >
           <img
             :src="require('../assets/skill-logo/' + name + '-logo.png')"
@@ -64,8 +64,8 @@ hr {
   margin-left: auto;
   margin-right: auto;
   background-color: #333;
-  border-top: 1px solid black;
-  opacity: 100%;
+  border-top: 2px solid black;
+  opacity: 1;
 }
 
 img {

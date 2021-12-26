@@ -4,7 +4,7 @@
       <div class="row justify-content-center text-center pt-3 m-0">
         <div
           class="col-md-6 col-sm-12 p-0"
-          data-aos="fade-right"
+          data-aos="flip-left"
           data-aos-duration="1000"
         >
           <img class="avatar" src="../assets/animated_avatar.gif" />
@@ -20,7 +20,7 @@
 
         <div
           class="col-md-6 col-sm-12"
-          data-aos="fade-left"
+          data-aos="flip-right"
           data-aos-duration="1000"
         >
           <img class="contact" src="../assets/animated_contact.gif" />

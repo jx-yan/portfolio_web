@@ -6,9 +6,9 @@
     <Skills />
     <footer class="container-fluid">
       <p class="float-end">
-        <a href="#app" class="pe-5 pb-4 text-dark">Back to Top</a>
+        <a href="#app" class="pe-5 pb-4 text-white">Back to Top</a>
       </p>
-      <p class="text-dark ps-5 pb-4">© Jiaxing 2022</p>
+      <p class="text-white ps-5 pb-4">© Jiaxing 2022</p>
     </footer>
   </div>
 </template>
@@ -51,24 +51,7 @@ body,
   font-family: "Josefin Sans", sans-serif;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background: no-repeat center center fixed;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(34, 34, 34, 0.2),
-      rgba(34, 34, 34, 0.2)
-    ),
-    url("./assets/ice_mountain.jpg");
-  background-size: cover;
-}
-
 footer {
-  background-color: #f8d5eb;
+  background-color: #313132;
 }
 </style>

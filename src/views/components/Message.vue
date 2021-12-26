@@ -1,26 +1,26 @@
 <template>
-  <div class="msg container justify-content-center" id="home">
-    <div class="row justify-content-center">
-      <div class="message col-xl-10 col-lg-10 col-md-12 col-sm-12 text-center">
-        <h1 class="typed-text">
-          {{ typeValue }}
-          <div class="cursor" :class="{ typing: typeStatus }"></div>
-        </h1>
-        <br />
+  <div class="row p-0 m-0 justify-content-center">
+    <div
+      class="message col-10 text-center animate__animated animate__backInLeft"
+    >
+      <h1 class="typed-text">
+        {{ typeValue }}
+        <div class="cursor" :class="{ typing: typeStatus }"></div>
+      </h1>
+      <br />
 
-        <h1>I'm {{ name }}</h1>
-        <br />
+      <h2>This is <img class="logo-navbar" /></h2>
+      <br />
 
-        <h5>
-          Information Systems
-          <span class="year" v-html="year[2]"></span>
-          in &nbsp;&nbsp;<img
-            class="school-logo"
-            src="../../assets/school_logo.png"
-            alt="school-logo"
-          />
-        </h5>
-      </div>
+      <h5>
+        Information Systems
+        <span class="year" v-html="year[2]"></span>
+        in &nbsp;&nbsp;<img
+          class="school-logo"
+          src="../../assets/school_logo.png"
+          alt="school-logo"
+        />
+      </h5>
     </div>
   </div>
 </template>
@@ -100,12 +100,15 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
 
-div.msg {
-  transform: translate(0, 30%);
-  font-family: "Bakbak One", cursive;
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .message {
+  font-family: "Bakbak One", cursive;
   background: #fff;
   padding: 2rem;
   border-radius: 10px;
