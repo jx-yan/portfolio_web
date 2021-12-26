@@ -1,6 +1,6 @@
 <h1 align="center">My Portfolio Website</h1>
 
-My Portfolio website developed using VueJS Framework, Animate.CSS, Animate On Scroll CSS/JS Library and Bootstrap
+<p align="center">My Portfolio website developed using VueJS Framework, Animate.CSS, Animate On Scroll CSS/JS Library and Bootstrap</p>
 
 <img align="center" src="src/assets/portfolio-web.gif" alt="portfolio-web preview"></img>
 
