@@ -1,14 +1,14 @@
 <template>
   <section id="skills">
     <p style="padding-bottom: 40px"></p>
-    <div class="container-fluid text-center justify-content-center">
-      <div class="row skills-title pb-4" data-aos="fade-down">
+    <div class="container-fluid p-0 m-0 text-center justify-content-center">
+      <div class="row skills-title px-0 m-0 pb-4" data-aos="fade-down">
         <h2>My Skills</h2>
         <hr class="my-0" />
       </div>
-      <div class="row">
+      <div class="row p-0 m-0">
         <div
-          class="col-lg-2 col-md-4 col-sm-6 py-4"
+          class="col-lg-2 col-md-4 col-sm-6 col-xs-12 py-4"
           v-for="(skill, name, index) in skills"
           :key="index"
           :skill="skill"
