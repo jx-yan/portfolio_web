@@ -45,5 +45,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 👤 **Yan Jiaxing**
 
 * Github: [@jx-yan](https://github.com/jx-yan)
-* LinkedIn: [@Hugo Bollon](https://www.linkedin.com/in/hugobollon/)
-* Portfolio: [hugobollon.me](https://jiaxing2022.web.app/)
+* LinkedIn: [@jiaxingyan](https://www.linkedin.com/in/jiaxingyan/)
+* Portfolio: [jiaxing2022.web.app](https://jiaxing2022.web.app/)
