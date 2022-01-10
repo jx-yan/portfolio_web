@@ -51,7 +51,7 @@ export default {
           fileLink: "",
           projectLink:
             "https://www.figma.com/proto/BEF7I26WNRrHzFQaYyPaO5/G9T4-HelpTogether-Prototype?page-id=13780%3A14496&node-id=13924%3A19033&viewport=241%2C48%2C0.13&scaling=scale-down&starting-point-node-id=13924%3A19033&show-proto-sidebar=1",
-          figmaLink: `<iframe width="100%" height="400px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBEF7I26WNRrHzFQaYyPaO5%2FG9T4-HelpTogether-Prototype%3Fnode-id%3D13780%253A14496" allowfullscreen></iframe>`,
+          figmaLink: `<iframe loading="lazy" width="100%" height="400px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBEF7I26WNRrHzFQaYyPaO5%2FG9T4-HelpTogether-Prototype%3Fnode-id%3D13780%253A14496" allowfullscreen></iframe>`,
           coverage: "",
         },
         item3: {
@@ -63,7 +63,7 @@ export default {
           fileLink: "",
           projectLink:
             "https://www.figma.com/proto/lci46lnvgcijNNiQMYzNHX/Lit-App?page-id=0%3A1&node-id=53%3A157&viewport=241%2C48%2C0.06&scaling=scale-down&starting-point-node-id=120%3A2",
-          figmaLink: `<iframe width="100%" height="400px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Flci46lnvgcijNNiQMYzNHX%2FLit-App%3Fnode-id%3D0%253A1" allowfullscreen></iframe>`,
+          figmaLink: `<iframe loading="lazy" width="100%" height="400px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Flci46lnvgcijNNiQMYzNHX%2FLit-App%3Fnode-id%3D0%253A1" allowfullscreen></iframe>`,
           coverage:
             "https://news.smu.edu.sg/news/2021/12/15/inaugural-financial-inclusion-hackathon-finhack-tackles-digital-financial-literacy",
         },
